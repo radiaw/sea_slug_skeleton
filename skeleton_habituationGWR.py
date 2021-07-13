@@ -19,10 +19,10 @@ import matplotlib.pyplot as plt
 stv = 4
 
 # TODO: set up an input pulse called pls
-pls =  1.0
+pls =  [0, 0, 1, 0, 0]
 
 # TODO: then create a list of 6 pulses, called x, to use for input
-x = [pls, 0.2, 0.59, 0.68, 0.75, 0.0]
+x = pls*6
 
 v = stv # Set connection weight to start weight value
 
